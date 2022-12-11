@@ -8,7 +8,7 @@ exports.addcourse = async(req, res) => {
         let item = {
 
             course_name: req.body.course_name,
-            course_description: req.body.course_name
+            course_description: req.body.course_description
 
 
         }
@@ -74,7 +74,7 @@ exports.updatecourse = async(req, res) => {
         let item = { //remove 'data' from below if we not pass data object from frontend
 
             course_name: req.body.course_name,
-            course_description: req.body.course_name
+            course_description: req.body.course_description
         }
         console.log("incoming data from update", item);
 

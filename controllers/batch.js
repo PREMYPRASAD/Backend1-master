@@ -8,7 +8,7 @@ exports.addbatch = async(req, res) => {
         let item = {
 
             batch_name: req.body.batch_name,
-            batch_description: req.body.batch_name
+            batch_description: req.body.batch_description
 
 
         }
@@ -76,7 +76,7 @@ exports.updatebatch = async(req, res) => {
         let item = { //remove 'data' from below if we not pass data object from frontend
 
             batch_name: req.body.batch_name,
-            batch_description: req.body.batch_name
+            batch_description: req.body.batch_description
         }
         console.log("incoming data from update", item);
 

@@ -8,7 +8,7 @@ exports.addprogram = async(req, res) => {
         let item = {
 
             program_name: req.body.program_name,
-            program_description: req.body.program_name
+            program_description: req.body.program_description
 
 
         }
@@ -75,7 +75,7 @@ exports.updateprogram = async(req, res) => {
         let item = { //remove 'data' from below if we not pass data object from frontend
 
             program_name: req.body.program_name,
-            program_description: req.body.program_name
+            program_description: req.body.program_description
         }
         console.log("incoming data from update", item);
 
